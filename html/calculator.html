@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/calculator.css">
+  <link rel="stylesheet" href="../css/adaptive/adaptive.css">
+  <link rel="stylesheet" href="../css/adaptive/calculatorAdaptive.css">
+
+  <title>Калькулятор</title>
+
+</head>
+<body class="body">
+
+  <div class="burger-menu menu-closed">
+    <div class="burger-menu__closed-button" onclick="closedBurgerMenu()"></div>
+    <nav class="burger-menu__nav">
+      <ul class="burger-menu__nav-list">
+        <li><a href="index.html" class="burger-menu__nav-item" onclick="navItem()">Главная</a></li>
+        <li><a href="calculator.html" class="burger-menu__nav-item" onclick="navItem()">Калькулятор</a></li>
+        <li><a href="portfolio.html" class="burger-menu__nav-item" onclick="navItem()">Портфолио</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <header class="header">
+    <img src="../img/logo.png" alt="logo" class="header__header-logo" width="125px">
+    <nav class="navigation navigation-header">
+      <a href="index.html" class="navigation__nav-link">Главная</a>
+      <a href="calculator.html" class="navigation__nav-link">Калькулятор</a>
+      <a href="portfolio.html" class="navigation__nav-link">Портфолио</a>
+    </nav>
+    <div class="burger-button" onclick="openBurgerMenu()">
+      <span class="burger-button__span"></span>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <div class="wrapper">
+      <div class="price-panel">
+        <div class="price-panel__price-list">
+
+          <div class="price-list__position">
+            <div class="position-name">Окно 1</div>
+            <div class="position-quantity qua1">0шт</div>
+            <div class="position-price priceArea1">0 €</div>
+          </div>
+
+          <div class="price-list__position">
+            <div class="position-name">Окно 2</div>
+            <div class="position-quantity qua2">0шт</div>
+            <div class="position-price priceArea2">0€</div>
+          </div>
+
+          <div class="price-list__position">
+            <div class="position-name">Окно 3</div>
+            <div class="position-quantity qua3">0шт</div>
+            <div class="position-price priceArea3">0 €</div>
+          </div>
+
+          <div class="price-list__position">
+            <div class="position-name">Окно 4</div>
+            <div class="position-quantity qua4">0шт</div>
+            <div class="position-price priceArea4">0 €</div>
+          </div>
+
+          <div class="price-list__position">
+            <div class="position-name">Окно 5</div>
+            <div class="position-quantity qua5">0шт</div>
+            <div class="position-price priceArea5">0 €</div>
+          </div>
+
+          <div class="price-list__position">
+            <div class="position-name">Окно 6</div>
+            <div class="position-quantity qua6">0шт</div>
+            <div class="position-price priceArea6">0 €</div>
+          </div>
+
+          <div class="price-list__position">
+            <div class="position-name">Окно 7</div>
+            <div class="position-quantity qua7">0шт</div>
+            <div class="position-price priceArea7">0 €</div>
+          </div>
+
+          <div class="price-list__position">
+            <div class="position-name">Окно 8</div>
+            <div class="position-quantity qua8">0шт</div>
+            <div class="position-price priceArea8">0 €</div>
+          </div>
+
+          <div class="price-list__position">
+            <div class="position-name">Окно 9</div>
+            <div class="position-quantity qua9">0шт</div>
+            <div class="position-price priceArea9">0 €</div>
+          </div>
+
+          <div class="price-list__position">
+            <div class="position-name">Окно 10</div>
+            <div class="position-quantity qua10">0шт</div>
+            <div class="position-price priceArea10">0 €</div>
+          </div>
+
+          <div class="price-list__position">
+            <div class="position-name">Окно 11</div>
+            <div class="position-quantity qua11">0шт</div>
+            <div class="position-price priceArea11">0 €</div>
+          </div>
+
+          <div class="price-list__position">
+            <div class="position-name">Окно 12</div>
+            <div class="position-quantity qua12">0шт</div>
+            <div class="position-price priceArea12">0 €</div>
+          </div>
+
+          <div class="price-list__position">
+            <div class="position-name">Окно 13</div>
+            <div class="position-quantity qua13">0шт</div>
+            <div class="position-price priceArea13">0 €</div>
+          </div>
+
+          <div class="price-list__position">
+            <div class="position-name">Окно 14</div>
+            <div class="position-quantity qua14">0шт</div>
+            <div class="position-price priceArea14">0 €</div>
+          </div>
+
+          <div class="price-list__position">
+            <div class="position-name">Окно 15</div>
+            <div class="position-quantity qua15">0шт</div>
+            <div class="position-price priceArea15">0 €</div>
+          </div>
+
+          <div class="price-list__position">
+            <div class="position-name">Окно 16</div>
+            <div class="position-quantity qua16">0шт</div>
+            <div class="position-price priceArea16">0 €</div>
+          </div>
+
+          <div class="price-list__position">
+            <div class="position-name">Окно 17</div>
+            <div class="position-quantity qua17">0шт</div>
+            <div class="position-price priceArea17">0 €</div>
+          </div>
+
+          <div class="price-list__position">
+            <div class="position-name">Окно 18</div>
+            <div class="position-quantity qua18">0шт</div>
+            <div class="position-price priceArea18">0 €</div>
+          </div>
+
+        </div>
+
+        <div class="price-panel__total-price result">
+          Итого: 0 €
+        </div>
+      </div>
+
+      <div class="market">
+
+        <div class="market-block">
+          <h3 class="market-block__title-block">Окно 1</h3>
+          <div class="market-block__content-block">
+            <div class="market-card">
+              <img src="../img/okno.png" alt="" class="market-card__card-img" width="250px">
+            </div>
+            <div class="market-quantity">
+              <button class="market-quantity__btn btn-minus" onclick="productMinus1()">-</button>
+              <p class="market-quantity__number area-1">0</p>
+              <button class="market-quantity__btn btn-plus" onclick="productPlus1()">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="market-block">
+          <h3 class="market-block__title-block">Окно 2</h3>
+          <div class="market-block__content-block">
+            <div class="market-card">
+              <img src="../img/okno.png" alt="" class="market-card__card-img" width="250px">
+            </div>
+            <div class="market-quantity">
+              <button class="market-quantity__btn btn-minus" onclick="productMinus2()">-</button>
+              <p class="market-quantity__number area-2">0</p>
+              <button class="market-quantity__btn btn-plus" onclick="productPlus2()">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="market-block">
+          <h3 class="market-block__title-block">Окно 3</h3>
+          <div class="market-block__content-block">
+            <div class="market-card">
+              <img src="../img/okno.png" alt="" class="market-card__card-img" width="250px">
+            </div>
+            <div class="market-quantity">
+              <button class="market-quantity__btn btn-minus" onclick="productMinus3()">-</button>
+              <p class="market-quantity__number area-3">0</p>
+              <button class="market-quantity__btn btn-plus" onclick="productPlus3()">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="market-block">
+          <h3 class="market-block__title-block">Окно 4</h3>
+          <div class="market-block__content-block">
+            <div class="market-card">
+              <img src="../img/okno.png" alt="" class="market-card__card-img" width="250px">
+            </div>
+            <div class="market-quantity">
+              <button class="market-quantity__btn btn-minus" onclick="productMinus4()">-</button>
+              <p class="market-quantity__number area-4">0</p>
+              <button class="market-quantity__btn btn-plus" onclick="productPlus4()">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="market-block">
+          <h3 class="market-block__title-block">Окно 5</h3>
+          <div class="market-block__content-block">
+            <div class="market-card">
+              <img src="../img/okno.png" alt="" class="market-card__card-img" width="250px">
+            </div>
+            <div class="market-quantity">
+              <button class="market-quantity__btn btn-minus" onclick="productMinus5()">-</button>
+              <p class="market-quantity__number area-5">0</p>
+              <button class="market-quantity__btn btn-plus" onclick="productPlus5()">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="market-block">
+          <h3 class="market-block__title-block">Окно 6</h3>
+          <div class="market-block__content-block">
+            <div class="market-card">
+              <img src="../img/okno.png" alt="" class="market-card__card-img" width="250px">
+            </div>
+            <div class="market-quantity">
+              <button class="market-quantity__btn btn-minus" onclick="productMinus6()">-</button>
+              <p class="market-quantity__number area-6">0</p>
+              <button class="market-quantity__btn btn-plus" onclick="productPlus6()">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="market-block">
+          <h3 class="market-block__title-block">Окно 7</h3>
+          <div class="market-block__content-block">
+            <div class="market-card">
+              <img src="../img/okno.png" alt="" class="market-card__card-img" width="250px">
+            </div>
+            <div class="market-quantity">
+              <button class="market-quantity__btn btn-minus" onclick="productMinus7()">-</button>
+              <p class="market-quantity__number area-7">0</p>
+              <button class="market-quantity__btn btn-plus" onclick="productPlus7()">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="market-block">
+          <h3 class="market-block__title-block">Окно 8</h3>
+          <div class="market-block__content-block">
+            <div class="market-card">
+              <img src="../img/okno.png" alt="" class="market-card__card-img" width="250px">
+            </div>
+            <div class="market-quantity">
+              <button class="market-quantity__btn btn-minus" onclick="productMinus8()">-</button>
+              <p class="market-quantity__number area-8">0</p>
+              <button class="market-quantity__btn btn-plus" onclick="productPlus8()">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="market-block">
+          <h3 class="market-block__title-block">Окно 9</h3>
+          <div class="market-block__content-block">
+            <div class="market-card">
+              <img src="../img/okno.png" alt="" class="market-card__card-img" width="250px">
+            </div>
+            <div class="market-quantity">
+              <button class="market-quantity__btn btn-minus" onclick="productMinus9()">-</button>
+              <p class="market-quantity__number area-9">0</p>
+              <button class="market-quantity__btn btn-plus" onclick="productPlus9()">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="market-block">
+          <h3 class="market-block__title-block">Окно 10</h3>
+          <div class="market-block__content-block">
+            <div class="market-card">
+              <img src="../img/okno.png" alt="" class="market-card__card-img" width="250px">
+            </div>
+            <div class="market-quantity">
+              <button class="market-quantity__btn btn-minus" onclick="productMinus10()">-</button>
+              <p class="market-quantity__number area-10">0</p>
+              <button class="market-quantity__btn btn-plus" onclick="productPlus10()">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="market-block">
+          <h3 class="market-block__title-block">Окно 11</h3>
+          <div class="market-block__content-block">
+            <div class="market-card">
+              <img src="../img/okno.png" alt="" class="market-card__card-img" width="250px">
+            </div>
+            <div class="market-quantity">
+              <button class="market-quantity__btn btn-minus" onclick="productMinus11()">-</button>
+              <p class="market-quantity__number area-11">0</p>
+              <button class="market-quantity__btn btn-plus" onclick="productPlus11()">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="market-block">
+          <h3 class="market-block__title-block">Окно 12</h3>
+          <div class="market-block__content-block">
+            <div class="market-card">
+              <img src="../img/okno.png" alt="" class="market-card__card-img" width="250px">
+            </div>
+            <div class="market-quantity">
+              <button class="market-quantity__btn btn-minus" onclick="productMinus12()">-</button>
+              <p class="market-quantity__number area-12">0</p>
+              <button class="market-quantity__btn btn-plus" onclick="productPlus12()">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="market-block">
+          <h3 class="market-block__title-block">Окно 13</h3>
+          <div class="market-block__content-block">
+            <div class="market-card">
+              <img src="../img/okno.png" alt="" class="market-card__card-img" width="250px">
+            </div>
+            <div class="market-quantity">
+              <button class="market-quantity__btn btn-minus" onclick="productMinus13()">-</button>
+              <p class="market-quantity__number area-13">0</p>
+              <button class="market-quantity__btn btn-plus" onclick="productPlus13()">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="market-block">
+          <h3 class="market-block__title-block">Окно 14</h3>
+          <div class="market-block__content-block">
+            <div class="market-card">
+              <img src="../img/okno.png" alt="" class="market-card__card-img" width="250px">
+            </div>
+            <div class="market-quantity">
+              <button class="market-quantity__btn btn-minus" onclick="productMinus14()">-</button>
+              <p class="market-quantity__number area-14">0</p>
+              <button class="market-quantity__btn btn-plus" onclick="productPlus14()">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="market-block">
+          <h3 class="market-block__title-block">Окно 15</h3>
+          <div class="market-block__content-block">
+            <div class="market-card">
+              <img src="../img/okno.png" alt="" class="market-card__card-img" width="250px">
+            </div>
+            <div class="market-quantity">
+              <button class="market-quantity__btn btn-minus" onclick="productMinus15()">-</button>
+              <p class="market-quantity__number area-15">0</p>
+              <button class="market-quantity__btn btn-plus" onclick="productPlus15()">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="market-block">
+          <h3 class="market-block__title-block">Окно 16</h3>
+          <div class="market-block__content-block">
+            <div class="market-card">
+              <img src="../img/okno.png" alt="" class="market-card__card-img" width="250px">
+            </div>
+            <div class="market-quantity">
+              <button class="market-quantity__btn btn-minus" onclick="productMinus16()">-</button>
+              <p class="market-quantity__number area-16">0</p>
+              <button class="market-quantity__btn btn-plus" onclick="productPlus16()">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="market-block">
+          <h3 class="market-block__title-block">Окно 17</h3>
+          <div class="market-block__content-block">
+            <div class="market-card">
+              <img src="../img/okno.png" alt="" class="market-card__card-img" width="250px">
+            </div>
+            <div class="market-quantity">
+              <button class="market-quantity__btn btn-minus" onclick="productMinus17()">-</button>
+              <p class="market-quantity__number area-17">0</p>
+              <button class="market-quantity__btn btn-plus" onclick="productPlus17()">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="market-block">
+          <h3 class="market-block__title-block">Окно 18</h3>
+          <div class="market-block__content-block">
+            <div class="market-card">
+              <img src="../img/okno.png" alt="" class="market-card__card-img" width="250px">
+            </div>
+            <div class="market-quantity">
+              <button class="market-quantity__btn btn-minus" onclick="productMinus18()">-</button>
+              <p class="market-quantity__number area-18">0</p>
+              <button class="market-quantity__btn btn-plus" onclick="productPlus18()">+</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <section class="section form-section">
+        <h2 class="section__section-title">Заголовок формы</h2>
+        <form action="" class="form" id="contactForm">
+          <div class="form__input-container">
+            <input type="text" placeholder="Имя" required name="name" class="form__form-input">
+            <input type="tel" placeholder="Телефон" required name="phone" class="form__form-input">
+          </div>
+          <input type="email" placeholder="E-mail" required name="email" class="form__form-input email-input">
+          <button class="form__submit-btn" type="submit">Оформить заказ</button>
+        </form>
+    </section>
+
+  </main>
+  
+  <footer class="footer">
+    <!-- <img src="#" alt="logo" class="footer__footer-logo"> -->
+    <a href="tel:+88888888888" class="footer__phone-link">8 888 888 88 88</a>
+    <nav class="navigation footer-nav">
+      <a href="index.html" class="navigation__nav-link">Главная</a>
+      <a href="calculator.html" class="navigation__nav-link">Калькулятор</a>
+      <a href="portfolio.html" class="navigation__nav-link">Портфолио</a>
+    </nav>
+  </footer>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js" defer=""></script>
+  <script src="../js/calculator.js"></script>
+  <script src="../js/form.js"></script>
+  <script src="../js/burger.js"></script>
+</body>
+</html>

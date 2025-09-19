@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/portfolio.css">
+  <link rel="stylesheet" href="../css/adaptive/adaptive.css">
+  <link rel="stylesheet" href="../css/adaptive/portfolioAdaptive.css">
+
+  <title>Портфолио работ</title>
+
+</head>
+<body class="body">
+
+  <div class="burger-menu menu-closed">
+    <div class="burger-menu__closed-button" onclick="closedBurgerMenu()"></div>
+    <nav class="burger-menu__nav">
+      <ul class="burger-menu__nav-list">
+        <li><a href="index.html" class="burger-menu__nav-item" onclick="navItem()">Главная</a></li>
+        <li><a href="calculator.html" class="burger-menu__nav-item" onclick="navItem()">Калькулятор</a></li>
+        <li><a href="portfolio.html" class="burger-menu__nav-item" onclick="navItem()">Портфолио</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="content">
+    <header class="header">
+      <img src="../img/logo.png" alt="logo" class="header__header-logo" width="125px">
+      <nav class="navigation navigation-header">
+        <a href="index.html" class="navigation__nav-link">Главная</a>
+        <a href="calculator.html" class="navigation__nav-link">Калькулятор</a>
+        <a href="portfolio.html" class="navigation__nav-link">Портфолио</a>
+      </nav>
+      <div class="burger-button" onclick="openBurgerMenu()">
+        <span class="burger-button__span"></span>
+      </div>
+    </header>
+
+    <main class="main">
+
+      <section class="section portfolio-section">
+        <h2 class="section__section-title">Наши работы</h2>
+
+        <div class="card-container">
+
+          <div class="card">
+            <h3 class="card__card-title">Название заказа</h3>
+            <p class="card__card-text">
+              Клиенту требовалось отмыть окна на балконе. Наша компания отправила на домашний адрес клиента группу молодых ребят, которые в течении пары десятков минут привели окна в идеальный вид. Клиент остался довольным работой и теперь рекомендует нас всем своим знакомым
+            </p>
+          </div>
+
+          <div class="card">
+            <h3 class="card__card-title">Название заказа</h3>
+            <p class="card__card-text">
+              Клиенту требовалось отмыть окна на балконе. Наша компания отправила на домашний адрес клиента группу молодых ребят, которые в течении пары десятков минут привели окна в идеальный вид. Клиент остался довольным работой и теперь рекомендует нас всем своим знакомым
+            </p>
+          </div>
+
+          <div class="card">
+            <h3 class="card__card-title">Название заказа</h3>
+            <p class="card__card-text">
+              Клиенту требовалось отмыть окна на балконе. Наша компания отправила на домашний адрес клиента группу молодых ребят, которые в течении пары десятков минут привели окна в идеальный вид. Клиент остался довольным работой и теперь рекомендует нас всем своим знакомым
+            </p>
+          </div>
+
+          <div class="card">
+            <h3 class="card__card-title">Название заказа</h3>
+            <p class="card__card-text">
+              Клиенту требовалось отмыть окна на балконе. Наша компания отправила на домашний адрес клиента группу молодых ребят, которые в течении пары десятков минут привели окна в идеальный вид. Клиент остался довольным работой и теперь рекомендует нас всем своим знакомым
+            </p>
+          </div>
+
+          <div class="card">
+            <h3 class="card__card-title">Название заказа</h3>
+            <p class="card__card-text">
+              Клиенту требовалось отмыть окна на балконе. Наша компания отправила на домашний адрес клиента группу молодых ребят, которые в течении пары десятков минут привели окна в идеальный вид. Клиент остался довольным работой и теперь рекомендует нас всем своим знакомым
+            </p>
+          </div>
+
+          <div class="card">
+            <h3 class="card__card-title">Название заказа</h3>
+            <p class="card__card-text">
+              Клиенту требовалось отмыть окна на балконе. Наша компания отправила на домашний адрес клиента группу молодых ребят, которые в течении пары десятков минут привели окна в идеальный вид. Клиент остался довольным работой и теперь рекомендует нас всем своим знакомым
+            </p>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- <section class="section portfolio-section">
+        <h2 class="section__section-title">Наши работы</h2>
+
+        <div class="swiper portfolio-swiper">
+          <div class="swiper-wrapper">
+            
+            <div class="swiper-slide">
+              <h3 class="swiper-slide__title-slide">Название заказа</h3>
+              <p class="swioer-slide__text-slide">
+                Клиенту требовалось отмыть окна на балконе. Наша компания отправила на домашний адрес клиента группу молодых ребят, которые в течении пары десятков минут привели окна в идеальный вид. Клиент остался довольным работой и теперь рекомендует нас всем своим знакомым
+              </p>
+            </div>
+            
+            <div class="swiper-slide">
+              <h3 class="swiper-slide__title-slide">Название заказа</h3>
+              <p class="swioer-slide__text-slide">
+                Клиенту требовалось отмыть окна на балконе. Наша компания отправила на домашний адрес клиента группу молодых ребят, которые в течении пары десятков минут привели окна в идеальный вид. Клиент остался довольным работой и теперь рекомендует нас всем своим знакомым
+              </p>
+            </div>
+            
+            <div class="swiper-slide">
+              <h3 class="swiper-slide__title-slide">Название заказа</h3>
+              <p class="swioer-slide__text-slide">
+                Клиенту требовалось отмыть окна на балконе. Наша компания отправила на домашний адрес клиента группу молодых ребят, которые в течении пары десятков минут привели окна в идеальный вид. Клиент остался довольным работой и теперь рекомендует нас всем своим знакомым
+              </p>
+            </div>
+            
+            <div class="swiper-slide">
+              <h3 class="swiper-slide__title-slide">Название заказа</h3>
+              <p class="swioer-slide__text-slide">
+                Клиенту требовалось отмыть окна на балконе. Наша компания отправила на домашний адрес клиента группу молодых ребят, которые в течении пары десятков минут привели окна в идеальный вид. Клиент остался довольным работой и теперь рекомендует нас всем своим знакомым
+              </p>
+            </div>
+            
+            <div class="swiper-slide">
+              <h3 class="swiper-slide__title-slide">Название заказа</h3>
+              <p class="swioer-slide__text-slide">
+                Клиенту требовалось отмыть окна на балконе. Наша компания отправила на домашний адрес клиента группу молодых ребят, которые в течении пары десятков минут привели окна в идеальный вид. Клиент остался довольным работой и теперь рекомендует нас всем своим знакомым
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </section> -->
+
+    </main>
+  </div>
+
+  <footer class="footer">
+    <a href="tel:+88888888888" class="footer__phone-link">8 888 888 88 88</a>
+    <nav class="navigation footer-nav">
+      <a href="index.html" class="navigation__nav-link">Главная</a>
+      <a href="calculator.html" class="navigation__nav-link">Калькулятор</a>
+      <a href="portfolio.html" class="navigation__nav-link">Портфолио</a>
+    </nav>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../js/slider.js"></script>
+  <script src="../js/burger.js"></script>
+</body>
+</html>

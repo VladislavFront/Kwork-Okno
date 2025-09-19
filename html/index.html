@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/adaptive/adaptive.css">
+
+  <title>Название компании</title>
+
+</head>
+<body class="body">
+
+  <div class="burger-menu menu-closed">
+    <div class="burger-menu__closed-button" onclick="closedBurgerMenu()"></div>
+    <nav class="burger-menu__nav">
+      <ul class="burger-menu__nav-list">
+        <li><a href="index.html" class="burger-menu__nav-item" onclick="navItem()">Главная</a></li>
+        <li><a href="calculator.html" class="burger-menu__nav-item" onclick="navItem()">Калькулятор</a></li>
+        <li><a href="portfolio.html" class="burger-menu__nav-item" onclick="navItem()">Портфолио</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <header class="header">
+    <img src="../img/logo.png" alt="logo" class="header__header-logo" width="125px">
+    <nav class="navigation navigation-header">
+      <a href="index.html" class="navigation__nav-link">Главная</a>
+      <a href="calculator.html" class="navigation__nav-link">Калькулятор</a>
+      <a href="portfolio.html" class="navigation__nav-link">Портфолио</a>
+    </nav>
+    <div class="burger-button" onclick="openBurgerMenu()">
+      <span class="burger-button__span"></span>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section class="section home-section">
+
+      <div class="section__left-block">
+        <div class="title-group">
+          <h1 class="title-group__home-title">Заголовок</h1>
+          <h2 class="title-group__home-sub-title">Подзаголовок. На 35 символов.</h2>
+        </div>
+        <a href="calculator.html" class="section__cta-btn">Узнать цену сейчас</a>
+      </div>
+
+      <div class="section__right-block">
+        <img src="../img/hero.png" alt="hero" class="right-block__hero-img" width="750px">
+      </div>
+
+    </section>
+
+    <section class="section about-section">
+
+      <h2 class="section__section-title">Заголовок второго блока</h2>
+
+      <div class="about-text">
+        <p class="about-text__paragraph">Абзац №1. Краткое введение в смысл компании. Пару предложений</p>
+        <p class="about-text__paragraph">Абзац №2. Здесь можно подробнее описать устройство компании или рассказать о её преимуществах</p>
+        <p class="about-text__paragraph">Абзац №3. Заключение о компании и призыв к заказу. Пара предложений + призыв</p>
+      </div>
+
+      <a href="#reviews" class="section__cta-btn">Отзывы реальных клиентов</a>
+
+    </section>
+
+    <section class="section object-section">
+      <h2 class="section__section-title">Заголовок третьего блока</h2>
+      <div class="swiper object-swiper">
+        <div class="swiper-wrapper">
+          
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Название объекта №1</h3>
+            <p class="swioer-slide__text-slide">
+              Отмыть окно №1 займет 15 минут, по цене в 1€
+            </p>
+          </div>
+          
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Название объекта №2</h3>
+            <p class="swioer-slide__text-slide">
+              Отмыть окно №2 займет 15 минут, по цене в 2€
+            </p>
+          </div>
+          
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Название объекта №3</h3>
+            <p class="swioer-slide__text-slide">
+              Отмыть окно №3 займет 15 минут, по цене в 3€
+            </p>
+          </div>
+          
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Название объекта №4</h3>
+            <p class="swioer-slide__text-slide">
+              Отмыть окно №4 займет 15 минут, по цене в 4€
+            </p>
+          </div>
+          
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Название объекта №5</h3>
+            <p class="swioer-slide__text-slide">
+              Отмыть окно №5 займет 15 минут, по цене в 5€
+            </p>
+          </div>
+          
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Название объекта №6</h3>
+            <p class="swioer-slide__text-slide">
+              Отмыть окно №6 займет 15 минут, по цене в 6€
+            </p>
+          </div>
+          
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Название объекта №7</h3>
+            <p class="swioer-slide__text-slide">
+              Отмыть окно №7 займет 15 минут, по цене в 7€
+            </p>
+          </div>
+          
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Название объекта №8</h3>
+            <p class="swioer-slide__text-slide">
+              Отмыть окно №8 займет 15 минут, по цене в 8€
+            </p>
+          </div>
+          
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Название объекта №9</h3>
+            <p class="swioer-slide__text-slide">
+              Отмыть окно №9 займет 15 минут, по цене в 9€
+            </p>
+          </div>
+          
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Название объекта №10</h3>
+            <p class="swioer-slide__text-slide">
+              Отмыть окно №10 займет 15 минут, по цене в 10€
+            </p>
+          </div>
+          
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Название объекта №11</h3>
+            <p class="swioer-slide__text-slide">
+              Отмыть окно №11 займет 15 минут, по цене в 11€
+            </p>
+          </div>
+          
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Название объекта №12</h3>
+            <p class="swioer-slide__text-slide">
+              Отмыть окно №12 займет 15 минут, по цене в 12€
+            </p>
+          </div>
+          
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Название объекта №13</h3>
+            <p class="swioer-slide__text-slide">
+              Отмыть окно №13 займет 15 минут, по цене в 13€
+            </p>
+          </div>
+          
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Название объекта №14</h3>
+            <p class="swioer-slide__text-slide">
+              Отмыть окно №14 займет 15 минут, по цене в 14€
+            </p>
+          </div>
+          
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Название объекта №15</h3>
+            <p class="swioer-slide__text-slide">
+              Отмыть окно №15 займет 15 минут, по цене в 15€
+            </p>
+          </div>
+          
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Название объекта №16</h3>
+            <p class="swioer-slide__text-slide">
+              Отмыть окно №16 займет 15 минут, по цене в 16€
+            </p>
+          </div>
+          
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Название объекта №17</h3>
+            <p class="swioer-slide__text-slide">
+              Отмыть окно №17 займет 15 минут, по цене в 17€
+            </p>
+          </div>
+          
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Название объекта №18</h3>
+            <p class="swioer-slide__text-slide">
+              Отмыть окно №8 займет 15 минут, по цене в 8€
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <span class="reviews" id="reviews"></span>
+
+    <section class="section reviews-section">
+
+      <h2 class="section__section-title">Заголовок четвертого блока</h2>
+
+      <div class="swiper revies-swiper">
+        <div class="swiper-wrapper">
+          
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Имя клиента</h3>
+            <p class="swioer-slide__text-slide">
+              Компания просто замечательная! Приехала группа ребят и за 15 минут отмыли мне весь балкон! Работа выполнена наилучшим образом! Однозначно рекомендую
+            </p>
+          </div>
+
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Имя клиента</h3>
+            <p class="swioer-slide__text-slide">
+              Компания просто замечательная! Приехала группа ребят и за 15 минут отмыли мне весь балкон! Работа выполнена наилучшим образом! Однозначно рекомендую
+            </p>
+          </div>
+
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Имя клиента</h3>
+            <p class="swioer-slide__text-slide">
+              Компания просто замечательная! Приехала группа ребят и за 15 минут отмыли мне весь балкон! Работа выполнена наилучшим образом! Однозначно рекомендую
+            </p>
+          </div>
+
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Имя клиента</h3>
+            <p class="swioer-slide__text-slide">
+              Компания просто замечательная! Приехала группа ребят и за 15 минут отмыли мне весь балкон! Работа выполнена наилучшим образом! Однозначно рекомендую
+            </p>
+          </div>
+
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Имя клиента</h3>
+            <p class="swioer-slide__text-slide">
+              Компания просто замечательная! Приехала группа ребят и за 15 минут отмыли мне весь балкон! Работа выполнена наилучшим образом! Однозначно рекомендую
+            </p>
+          </div>
+
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Имя клиента</h3>
+            <p class="swioer-slide__text-slide">
+              Компания просто замечательная! Приехала группа ребят и за 15 минут отмыли мне весь балкон! Работа выполнена наилучшим образом! Однозначно рекомендую
+            </p>
+          </div>
+
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Имя клиента</h3>
+            <p class="swioer-slide__text-slide">
+              Компания просто замечательная! Приехала группа ребят и за 15 минут отмыли мне весь балкон! Работа выполнена наилучшим образом! Однозначно рекомендую
+            </p>
+          </div>
+
+          <div class="swiper-slide">
+            <h3 class="swiper-slide__title-slide">Имя клиента</h3>
+            <p class="swioer-slide__text-slide">
+              Компания просто замечательная! Приехала группа ребят и за 15 минут отмыли мне весь балкон! Работа выполнена наилучшим образом! Однозначно рекомендую
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <a href="tel:+88888888888" class="footer__phone-link">8 888 888 88 88</a>
+    <nav class="navigation footer-nav">
+      <a href="index.html" class="navigation__nav-link">Главная</a>
+      <a href="calculator.html" class="navigation__nav-link">Калькулятор</a>
+      <a href="portfolio.html" class="navigation__nav-link">Портфолио</a>
+    </nav>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../js/slider.js"></script>
+  <script src="../js/burger.js"></script>
+</body>
+</html>

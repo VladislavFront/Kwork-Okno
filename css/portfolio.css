@@ -1,0 +1,23 @@
+.portfolio-section {
+  margin-top: var(--headerHeight);
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.card {
+  border: 5px solid var(--accentColor);
+  padding: 25px;
+  max-width: 850px;
+  border-radius: var(--radius);
+  font-size: var(--fontSize);
+}
+
+.card__card-title {
+  margin-bottom: 25px;
+}

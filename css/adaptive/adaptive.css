@@ -1,0 +1,160 @@
+@media screen and (max-width: 1200px) {
+
+  :root {
+    --sectionTitleSize: 58px;
+    --sectionSubTitleSize: 38px;
+    --fontSize: 20px;
+  }
+
+  .home-section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .right-block__hero-img {
+    display: none;
+  }
+  
+  .section__left-block {
+    width: 100%;
+    align-items: center;
+  }
+  
+  .title-group {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .section__cta-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+
+  .burger-button {
+    display: flex; /* flex - видно, none - не видно */
+  }
+
+  .navigation-header {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+  
+  /* .home-section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .right-block__hero-img {
+    display: none;
+  }
+  
+  .section__left-block {
+    width: 100%;
+    align-items: center;
+  }
+  
+  .title-group {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .section__cta-btn {
+    width: 100%;
+    text-align: center;
+  } */
+
+  .navigation {
+    gap: 25px;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  :root {
+    --sectionTitleSize: 40px;
+    --sectionSubTitleSize: 30px;
+    --fontSize: 18px;
+  }
+
+  .navigation {
+    gap: 15px;
+  }
+
+  .section {
+    padding: 15px;
+  }
+
+  .section__section-title {
+    margin-bottom: 25px;
+  }
+
+  .table {
+    padding: 0;
+  }
+
+  .table__tr {
+    width: 100%;
+    gap: 15px;
+    margin: 15px 0;
+  } 
+
+  .table__td {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .burger-menu.menu-open {
+    width: 100%;
+  }
+
+  .swiper-slide__title-slide {
+    margin-bottom: 15px;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+
+  .table__th, .table__td {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__phone-link {
+    margin-right: 15px;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  .footer {
+    padding: 15px;
+  }
+
+  .title-group {
+    margin-bottom: 50px;
+  }
+
+  .swiper-slide {
+    padding: 15px;
+  }
+
+}
